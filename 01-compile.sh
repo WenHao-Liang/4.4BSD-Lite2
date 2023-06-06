@@ -2,7 +2,7 @@
 
 set -x
 
-bear make
+bear -- make
 
 # make clean
 
