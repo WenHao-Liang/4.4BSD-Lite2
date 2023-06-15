@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "(debug-4.4BSD-Lite2)",
+            "name": "(4.4BSD-Lite2-debug)",
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/objs/test_init",
@@ -14,7 +14,7 @@
             // "program": "${workspaceFolder}/objs/test_tun",
             "args": [],
             "stopAtEntry": true,
-            "cwd": "${fileDirname}",
+            "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
@@ -25,8 +25,10 @@
                     "ignoreFailures": true
                 },
                 {
-                    "description": "将反汇编风格设置为 Intel",
-                    "text": "-gdb-set disassembly-flavor intel",
+                    // "description": "将反汇编风格设置为 Intel",
+                    // "text": "-gdb-set disassembly-flavor intel",
+                    "description": "将反汇编风格设置为 AT&T",
+                    "text": "-gdb-set disassembly-flavor att",
                     "ignoreFailures": true
                 }
             ]
