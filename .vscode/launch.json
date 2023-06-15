@@ -5,17 +5,15 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "(VSCode-gdb-调试)",
+            "name": "(debug-4.4BSD-Lite2)",
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/objs/test_init",
             // "program": "${workspaceFolder}/objs/test_self",
             // "program": "${workspaceFolder}/objs/test_pigeon",
             // "program": "${workspaceFolder}/objs/test_tun",
-            "args": [
-                "8080"
-            ],
-            "stopAtEntry": false,
+            "args": [],
+            "stopAtEntry": true,
             "cwd": "${fileDirname}",
             "environment": [],
             "externalConsole": false,
